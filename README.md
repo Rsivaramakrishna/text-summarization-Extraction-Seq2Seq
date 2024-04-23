@@ -27,16 +27,11 @@ Copy code
 from text_summarization import Seq2SeqSummarizer
 
 # Initialize the summarizer
-summarizer = Seq2SeqSummarizer()
 
 # Load trained model weights
-summarizer.load_model_weights('trained_model_weights.h5')
 
 # Generate summary for input text
-input_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-summary = summarizer.summarize(input_text)
 
-print("Summary:", summary)
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
